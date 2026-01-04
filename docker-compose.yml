@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  api:
+    build: ./backend
+    env_file:
+      - ./backend/.env.example
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/uploads:/app/uploads
+    restart: unless-stopped
