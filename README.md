@@ -1,4 +1,4 @@
-# CEHURD ERP starter
+# ERP starter
 
 A lightweight ERP starter that covers departments, role-based access, task assignment, notices/events, and resource sharing. It ships with a FastAPI backend (SQLite by default) and an Expo React Native app you can push to Play Store/App Store.
 
